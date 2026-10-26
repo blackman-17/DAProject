@@ -1,0 +1,13 @@
+﻿id,hypothesis,test,n,statistic,p_value,effect,ci_low,ci_high,decision
+H1,Screen turned on more before high stress,Paired t-test,93,t(92) = 2.68,0.0088,mean difference = 0.22,0.0579,0.3908,Reject H0
+H2,More time in a vehicle before high stress,Paired t-test,86,t(85) = 2.29,0.0246,mean difference = 1.22,0.1591,2.2728,Reject H0
+H3,Less time sitting still before high stress,Paired t-test,86,t(85) = -2.58,0.0116,mean difference = -2.65,-4.7004,-0.6085,Reject H0
+H4,Unpleasant events raise stress,Paired t-test,75,t(74) = 10.88,0.0,mean difference = 17.11,13.98,20.245,Reject H0
+H5,Weekdays are more stressful than weekends,z-test (mean difference),101,z = 4.67,0.0,mean difference = 2.51,1.4555,3.5608,Reject H0
+H6,More stress when tired,Paired t-test,93,t(92) = 3.42,0.0009,mean difference = 3.97,1.6646,6.2836,Reject H0
+H7,More stress when in a bad mood,Paired t-test,90,t(89) = 7.92,0.0,mean difference = 8.77,6.5675,10.9676,Reject H0
+H8,People with anxiety are more often highly stressed,Two-proportion z-test,103,z = 3.79,0.0002,79% vs 38%,0.2305,0.599,Reject H0
+H9,Depression symptoms are linked to stress level,Chi-square test,103,χ²(2) = 11.53,0.0031,Cramér's V = 0.33,,,Reject H0
+H10,People with low resilience are more stressed,Independent t-test (Welch),103,t(38.1) = 2.69,0.0105,mean difference = 10.83,2.6812,18.9858,Reject H0
+H11,Stress differs by satisfaction with mental health,One-way ANOVA,103,"F(2, 100) = 3.76",0.0267,η² = 0.07,,,Reject H0
+H12,Stress rises with general negative feelings,One-way ANOVA,103,"F(2, 100) = 4.51",0.0133,η² = 0.08,,,Reject H0
